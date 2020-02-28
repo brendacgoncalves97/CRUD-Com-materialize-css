@@ -52,7 +52,7 @@ include_once 'includes/mensagem.php';
       							<form action="php_action/delete.php" method="POST">
       								<input type="hidden" name="id" value="<?php echo $dados['id'];?>">
       								<button type="submit" name="btn-deletar"class="btn red">Tenho Certeza!</button>
-      								<a href="#!" class="modal-close waves-effect waves-green btn-flat">Cancelar</a>
+      								<a href="#!" class="modal-close waves-effect waves-green btn-flat green">Cancelar e voltar</a>
       							</form>
     						</div>
   						</div>
